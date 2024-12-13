@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERSociety</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css" >
+    <link rel="stylesheet" type="text/css"  href="css/slick-theme.css" >
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+   
+</head>
+<body >
+    <header class="main-header">
+       
+            <div class="main-header_inner">
+                <div class="logo">
+                    <figure>
+                        <img src="images/logo2.png" alt="ERSociety">
+                    </figure>
+                </div>
+                <button id='mobile-menu-open-button' >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button id='mobile-menu-close-button' class="hidden">
+                <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <ul id="mobile-menu">
+                    
+                    <li><a href="index.html">Home</a> </li>
+                                
+                                        <li><a href="aboutus.html">About Us</a> </li>
+                                        <li><a href="mission.html">Mission</a> </li>
+                                        <li><a href="Vision.html">Vision</a> </li>
+                                
+                                <li><a href="boardofdirectors.html">Board of Directors</a> </li>        
+                     
+                                        <li><a href="assistimmigrant.html">Assit Immigrant families</a> </li>
+                                        <li><a href="skillandlanguage.html">Skill & Language Training</a> </li>
+                                        <li><a href="employementguidance.html">Employement Guidance</a> </li>
+                                        <li><a href="sportsdevelopment.html">Sports Development</a> </li>
+                                        <li><a href="medicalandfood.html">Medical & Food Relief</a> </li>
+                                        <li><a href="communitydevelopment.html">Community Development</a> </li>               
+                                        <li><a href="mentalhealth.html">Awareness On Mental Health</a> </li>
+                                        <li><a href="younggen.html">Awareness For Young Generation</a> </li>
+                                        <li><a href="spiritual.html">Awareness For Spiritual Gudiance</a> </li>
+                                                      
+                                <li><a href="activities.html">Activities</a> </li>
+                                <li><a href="gallery.html">Gallery</a> </li>
+                                <li><a href="contact.html">Contact Us</a> </li>    
+
+
+
+                </ul>
+
+                <div class="header-content">
+                    <div class="header-content__inner flex">
+                        <div class="header-name">
+                        <h1>Ebenzer Relief Society</h1>
+                        </div>
+                        <div class="header-contact">
+                            <i class="fas fa-phone-volume"></i> <a href="tel:4037088214"> (587) 703-8958</a>
+                        </div>
+                        <div class="social-media">
+                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" target="_blank"></a><i class="fab fa-twitter"></i></a>
+                            <a href="#" target="_blank"></a><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="navigation-inner">
+                    <nav class="navigation">
+                        <div class="container">
+                            <ul class="main-menu">
+                                <li><a href="index.html">Home</a> </li>
+                                <li class="has-child"><a href="#">About us</a><i class="fas fa-caret-down"></i>
+                                    <ul class="submenu">
+                                        <li><a href="aboutus.html">About Us</a> </li>
+                                        <li><a href="mission.html">Mission</a> </li>
+                                        <li><a href="Vision.html">Vision</a> </li>
+                                    </ul>                
+                                </li>
+                
+                                <li><a href="boardofdirectors.html">Board of Directors</a> </li>        
+                     
+                                <li class="has-child"><a href="#">Support Programs</a><i class="fas fa-caret-down"></i>
+                                    <ul class="submenu">
+                                        <li><a href="assistimmigrant.html">Assit Immigrant families</a> </li>
+                                        <li><a href="skillandlanguage.html">Skill & Language Training</a> </li>
+                                        <li><a href="employementguidance.html">Employement Guidance</a> </li>
+                                        <li><a href="sportsdevelopment.html">Sports Development</a> </li>
+                                        <li><a href="medicalandfood.html">Medical & Food Relief</a> </li>
+                                        <li><a href="communitydevelopment.html">Community Development</a> </li>               
+                                    </ul>               
+                                </li>
+                                <li class="has-child"><a href="#">Services</a><i class="fas fa-caret-down"></i>
+                                    <ul class="submenu">
+                                        <li><a href="mentalhealth.html">Awareness On Mental Health</a> </li>
+                                        <li><a href="younggen.html">Awareness For Young Generation</a> </li>
+                                        <li><a href="spiritual.html">Awareness For Spiritual Gudiance</a> </li>
+                                                      
+                                    </ul>               
+                                </li>
+                                <li><a href="activities.html">Activities</a> </li>
+                                <li><a href="gallery.html">Gallery</a> </li>
+                                <li><a href="contact.html">Contact Us</a> </li>                              
+                            </ul><!--main-menu-->
+                        </div>
+                    </nav>
+                    <div class="quick-inquiry">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#quick-i">Quick
+                            Inquiry</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+       
+    </header>
+    
+    <div class="slider">
+        <div class="slider-item" style="background-image: url('images/slider1.jpg')">
+            <div class="container">
+            <div class="slider-content">
+                <small>give a helping hand</small>
+                <strong>helping hand for refugee</strong>
+                <div class="button-container">
+                    <button class="learn-more-btn">Learn More</button>
+                 </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="slider-item" style="background-image: url('images/slider2.jpg')">
+            <div class="container">
+                <div class="slider-content">
+                    <small>Empowering Immigrant Families</small>
+                    <strong>support for education</strong>
+                    <div class="button-container">
+                        <button class="learn-more-btn">Learn More</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="slider-item" style="background-image: url('images/slider3.jpg')">
+            <div class="container">
+                <div class="slider-content">
+                    <small>Building Bridges to Future</small>
+                    <strong>Guidance, care, and community  </strong>
+                    <div class="button-container">
+                        <button class="learn-more-btn">Learn More</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-item" style="background-image: url('images/slider4.jpg')">
+            <div class="container">
+                <div class="slider-content">
+                    <small>Holistic Support for Every Step</small>
+                    <strong>Settling with spiritual growth</strong>
+                    <div class="button-container">
+                        <button class="learn-more-btn">Learn More</button>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!--slideer close-->
+    <!--know more section starts-->
+<div class="know-more">
+    <div class="container">
+        <div class="know-more-inner">
+            <div class="know-more__item">
+                <div class="icon">
+                    <i class="fa-solid fa-handshake-angle"></i>
+                </div>
+                <h6>Volunter</h6>
+            </div>
+
+            <div class="know-more__item">
+                <div class="icon">
+                    <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <h6>Protect</h6>
+            </div>
+
+            <div class="know-more__item">
+                <div class="icon">
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                </div>
+                <h6>Care</h6>
+            </div>
+
+            <div class="know-more__item">
+                <div class="icon">
+                    <i class="fa-solid fa-circle-dollar-to-slot"></i>
+                </div>
+                <h6>Donate</h6>
+            </div>
+        </div>
+    </div>
+</div>
+<!--know more closed-->
+<!-- about us section starts -->
+<div class="about-us">
+    <div class="about-us__inner">
+        <div class="about-us__image" style="background-image: url(images/about-us.jpg);">
+
+        </div>
+        <div class="about-us__content"style="background-image: url(images/about-usbackground.jpg);">
+            <h6>About Us</h6>
+            <strong>Ebeneze Relief Society</strong>
+                <p>The name "Ebenezer" originates from the Hebrew language and means "helper stone". It is taken from the biblical story in 1 Samuel 7:12. The prophet Samuel erected a stone as a memorial to God's help Israel it is in their victory over the Philistines. Samuel named the stone "Ebenezer," saying, "Thus far the Lord has helped us." </p>
+                <p>E.R.S Stands for various things depending on the context. One common interpretation is Ebenezer Relief Society, which is an organization dedicated to providing aid and support to individuals and communities in need. The name "Ebenezer" symbolizes a reminder of divine aid and support, reflecting the society's mission to uplift and aid those facing hardship.  </p>
+                <p class="welcome-heading" >We offer a comprehensive range of Supporting Programs and services, including:</p>
+                
+                <p><i class="fa-solid fa-hand-point-right"></i>Skill & Language Training</p>
+                <p><i class="fa-solid fa-hand-point-right"></i>Employement Guidance</p>
+                <p><i class="fa-solid fa-hand-point-right"></i>Sports Development</p>
+                <p><i class="fa-solid fa-hand-point-right"></i>Medical & Food Relief</p>
+                <p><i class="fa-solid fa-hand-point-right"></i>Community Development</p>
+
+            <div class="button-container">
+               <button class="learn-more-btn">Discover More</button>
+            </div>
+                </div>
+        </div>
+    </div>
+</div> 
+<!--our services start-->
+<section class="recent-cause">
+    <div class="Theme-title text-center">
+        <h6>OUR ---</h6>
+        <h2>Programs & Services</h2>
+    </div>
+    <!-- <h2 <small>our</small>
+        <SPan class="section-title">Recent Cause</SPan></h2> -->
+    <div class="cause-container">
+        <div class="cause-card">
+            <img src="images/service1.jpg" alt="Cause 1" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Assit Immigrant families</h3>
+                <p class="cause-description">Welcome to Ebeneze Relief Society, where we are dedicated to empowering immigrant families as they build new lives in Canada. Our holistic support programs focus on key areas such as education, mental health, and spiritual growth, ensuring that every family feels supported and connected.Together, we can make your journey toward a stable and fulfilling future a reality. Join us and discover the strength of a compassionate, supportive network.</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service2.jpg" alt="Cause 2" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Skill & Language Training</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we recognize the importance of effective communication and valuable skills in building a successful future. Our Skill & Language Training programs are designed to help  familiesOur training programs empower individuals to confidently navigate their new environment and unlock opportunities for personal and professional growth. Together, let’s build a strong foundation for your success!</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service3.jpg" alt="Cause 3" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Employement Guidance</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we are dedicated to supporting individuals from all walks of life in achieving meaningful employment and financial stability. Our Employment Guidance program is designed to empower job seekers with the tools and resources they need to succeed. Ebeneze Relief Society is here to guide you every step of the way. Let us help you turn your aspirations into achievements!</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+        <div class="cause-card">
+            <img src="images/service4.jpg" alt="Cause 1" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Sports Development</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we believe in the power of sports to build confidence, foster teamwork, and promote physical and mental well-being. Our Sports Development program is open to individuals of all ages and backgrounds.Whether you’re a beginner or an experienced athlete, our program is designed to inspire growth, encourage participation, and create a sense of belonging. Join us and experience how sports can transform lives and strengthen communities!</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service5.jpg" alt="Cause 2" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Medical & Food Relief</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we are committed to addressing the essential needs of individuals and families in our community through our Medical & Food Relief program.We believe that no one should go without basic necessities. Through compassion and community effort, we strive to ensure everyone has access to the care and sustenance they need to thrive. Join us in making a difference today!</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service6.jpg" alt="Cause 3" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Community Development</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we are dedicated to fostering strong, inclusive communities where everyone has the opportunity to thrive.By working together, we aim to create vibrant, resilient communities where every individual feels valued, supported, and empowered to contribute to a brighter future. Join us in shaping a stronger tomorrow!</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service7.jpg" alt="Cause 1" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Awareness On Mental Health</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we are deeply committed to promoting mental health awareness and ensuring that individuals and families have the resources they need to lead balanced and fulfilling lives.Our programs are designed to help individuals recognize the signs of stress, anxiety, or depression and equip them with strategies to cope effectively.Together, we can create a compassionate community where everyone feels supported and empowered to prioritize their mental health.</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service8.jpg" alt="Cause 2" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Awareness For Young Generation</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we recognize the immense potential of the young generation as the future leaders, innovators, and changemakers of our society. Our Awareness for Young Generation initiative is dedicated to equipping youth with the knowledge, skills, and values needed to navigate today’s challenges and contribute meaningfully to their communities.Together, we can inspire and guide the next generation toward a path of growth and success.</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+
+        <div class="cause-card">
+            <img src="images/service9.jpg" alt="Cause 3" class="cause-image">
+            <div class="cause-content">
+                <h3 class="cause-title">Awareness For Spiritual Gudiance</h3>
+                <p class="cause-description">At Ebeneze Relief Society, we believe that spiritual well-being is a vital part of holistic growth and personal fulfillment. Our Awareness for Spiritual Guidance program is dedicated to helping individuals explore and nurture their spiritual journeys, fostering a sense of purpose, inner peace, and connection to their values.Together, we can create a supportive environment where everyone feels spiritually enriched and fulfilled.</p>
+                <a href="#" class="donate-button">Donate Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--our services closed-->
+<!--Counts down section-->
+<div class="company-history">
+    <div class="company-top__image">
+        <img src="images/shape-1.png" alt="Ebeneze society">
+    </div>
+    <!--top-image-->
+    <div class="company-history-inner">
+        <div class="icon-holder">
+            <div class="container">
+                <div class="icon-inner flex">
+                    <div class="icon-item">
+                        <div class="icon-item__inner">
+                            <div class="icons">
+                                <i class="fa-solid fa-sack-dollar"></i>
+                            </div>
+                            <div class="icon-item_content">
+                                <p class="icon-item__counter">
+                                    <span>1400</span>+
+                                </p>
+                                <h3>Fundrising</h3>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="icon-item">
+                        <div class="icon-item__inner">
+                            <div class="icons">
+                                <i class="fa-solid fa-handshake-angle"></i>
+                            </div>
+                            <div class="icon-item_content">
+                                <p class="icon-item__counter">
+                                    <span>1000</span>+
+                                </p>
+                                <h3>Volunteer</h3>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="icon-item">
+                        <div class="icon-item__inner">
+                            <div class="icons">
+                                <i class="fa-solid fa-hand-holding-dollar"></i>
+                            </div>
+                            <div class="icon-item_content">
+                                <p class="icon-item__counter">
+                                    <span>500</span>+
+                                </p>
+                                <h3>Donator</h3>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="icon-item">
+                        <div class="icon-item__inner">
+                            <div class="icons">
+                                <i class="fa-solid fa-comments-dollar"></i>
+                            </div>
+                            <div class="icon-item_content">
+                                <p class="icon-item__counter">
+                                    <span>1500</span>+
+                                </p>
+                                <h3>Funds Raised</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <img src="images/shape-2.png" alt="Ebeneze society" class="company-bottom__image">
+    <!--bottom-image-->
+
+</div>
+<!--Counts down ends-->
+<!-- News Update Section -->
+<section class="news-update-section">
+    <div class="container">
+        <div class="Theme-title text-center">
+            <h2>News Update</h2>
+            <h6>Latest News</h6>
+        </div>
+
+        <div class="row home-news-update-wrapper">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="home-news-update-item">
+                    <div>
+                        <img src="images/servce1.jpg" alt="image">
+
+                    </div>
+                    <div class="news-update-text">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> March 4, 2017 1:10 pm</span>
+                        <p>Monsoon floods: World Vision warns of spike in child</p>
+                        <a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="home-news-update-item">
+                    <div>
+                        <img src="images/servce1.jpg" alt="image">
+
+                    </div>
+                    <div class="news-update-text">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> April 4, 2017 1:10 pm</span>
+                        <p>Increase in heat-related illness for Iraqi children</p>
+                        <a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-xs-12">
+                <div class="home-news-update-item">
+                    <div>
+                        <img src="images/servce1.jpg" alt="image">
+                    </div>
+                    <div class="news-update-text">
+                        <span><i class="fa fa-clock-o" aria-hidden="true"></i> May 4, 2017 1:10 pm</span>
+                        <p>Charity fears that South Sudanese refugee children</p>
+                        <a href="blog-v1.html"><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Testimonials starts-->
+<div class="testimonials">
+    <div class="testimonials-shape">
+        <img src="images/testimonials-shape.png" alt="Ebeneze society">
+    </div>
+    <div class="testimonials-inner">
+        <div class="container">
+            <h2>What Our Customers Say About Us</h2>
+        
+            <div class="multiple-items">
+                <div class="testimonial-item flex">
+                   <!-- <figure class="testimonial-image">
+                    <i class="fa-solid fa-user"></i>
+                   </figure>  -->
+                    <div class="testimonial-item__inner">
+                       <blockquote>"Ebeneze Relief Society has been a pillar of support for our family. From helping us access educational resources to offering mental health counseling, they have truly transformed our lives. We are grateful for their kindness and dedication to making a difference."</blockquote>
+                        <div class="testimonial-item__authorinfo">
+                            <p> Amarjit Singh, Calgary</p>
+                        </div>
+                    </div>
+                </div><!--testimonial-item-->
+    
+                <div class="testimonial-item flex">
+                    <!-- <figure class="testimonial-image">
+                        <i class="fa-solid fa-user"></i>
+                       </figure>  -->
+                    <div class="testimonial-item__inner">
+                       <blockquote>"As a young professional, I struggled to find direction after moving to a new city. Ebeneze’s Employment Guidance and Skill Training programs gave me the tools and confidence to secure a stable job and grow my career. Their support has been life-changing."</blockquote>
+                        <div class="testimonial-item__authorinfo">
+                            <p> Fatima Ali, Edmonton</p>
+                        </div>
+                    </div>
+                </div><!--testimonial-item-->
+    
+                <div class="testimonial-item flex">
+                    <!-- <figure class="testimonial-image">
+                        <i class="fa-solid fa-user"></i>
+                       </figure>  -->
+                    <div class="testimonial-item__inner">
+                       <blockquote>"Ebeneze Relief Society’s Community Development program brought our neighborhood together like never before. The cultural festivals and community projects they organized created lasting connections and a sense of belonging for all of us."</blockquote>
+                        <div class="testimonial-item__authorinfo">
+                            <p>Maria Santos, Red Deer</p>
+                        </div>
+                    </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!--Testimonials ends-->
+<!--Gallery starts-->
+<section class="gallery" >
+    <div class="Theme-title text-center">
+        <h6>OUR ---</h6>
+        <h2>Gallery & Work</h2>
+    </div>
+    <div class="image-slider">
+        <div><img src="images/gallery1.jpg" alt="Image 1"></div>
+        <div><img src="images/gallery2.jpg" alt="Image 2"></div>
+        <div><img src="images/gallery3.jpg" alt="Image 3"></div>
+        <div><img src="images/gallery4.jpg" alt="Image 4"></div>
+        <div><img src="images/gallery1.jpg" alt="Image 1"></div>
+        <div><img src="images/gallery2.jpg" alt="Image 2"></div>
+        <div><img src="images/gallery3.jpg" alt="Image 3"></div>
+        <div><img src="images/gallery4.jpg" alt="Image 4"></div>
+      </div>
+      <div class="button-container">
+        <button class="learn-more-btn">All Gallery</button>
+     </div>
+      
+</section>
+<!--Gallery ends-->   
+<!--Form Starts-->  
+<div class="form flex">
+    <div class="form-div"style="background-image: url(images/formbackground.jpg);">
+        <div class="form-content">
+            <h2>Quick Inquiry Form</h2>
+            
+            <form id="inquiryForm" action="submit_form.html" method="POST">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="inquiry-type">Inquiry Type</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                  <option value="donation">Donation</option>
+                  <option value="volunteer">Volunteer</option>
+                  <option value="help">Need Help</option>
+                </select>
+              </div>
+      
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Please provide details..." required></textarea>
+              </div>
+      
+              <div class="form-group">
+                <div class="button-container" type="submit">
+                    <button class="learn-more-btn">Submit</button>
+                 </div>
+            </form>
+            
+            <div class="form-footer">
+              <p>Thank you for your interest in supporting our cause!</p>
+            </div>
+          </div>
+    </div>
+</div>
+    <div class="content-div">
+        <div class="map"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160600.6476827071!2d-114.25263623676449!3d51.027507407783716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1731734646968!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</div>
+<!--Form ends-->   
+ 
+<!--Footer ends-->   
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Column 1: Logo and Description -->
+      <div class="footer-column">
+        <div class="footer-logo">
+        <figure>
+                        <img src="images/logo2.png" alt="ERSociety">
+                    </figure>
+        </div>
+        <p class="footer-description">
+        "Ebeneze Relief Society has been a guiding light for countless individuals and families, providing support with compassion and dedication."
+        </p>
+      </div>
+      <!-- Column 2: First set of links -->
+      <div class="footer-column">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="boardofdirectors.html">Board of Directors</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Second set of links -->
+      <div class="footer-column">
+        <ul>
+        <li><a href="assistimmigrant.html">Assit Immigrant families</a> </li>
+       <li><a href="skillandlanguage.html">Skill & Language Training</a> </li>
+        <li><a href="employementguidance.html">Employement Guidance</a> </li>
+        <li><a href="sportsdevelopment.html">Sports Development</a> </li>
+        <li><a href="medicalandfood.html">Medical & Food Relief</a> </li>
+         <li><a href="communitydevelopment.html">Community Development</a> </li>            
+        </ul>
+      </div>
+      <!-- Column 4: Third set of links -->
+      <div class="footer-column">
+        <ul>
+        <li><a href="mentalhealth.html">Awareness On Mental Health</a> </li>
+        <li><a href="younggen.html">Awareness For Young Generation</a> </li>
+       <li><a href="spiritual.html">Awareness For Spiritual Gudiance</a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p> <span class="template"></span> ©2024, <span class="highlight">Ebeneze Relief Society</span> All Rights Reserved</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--Footer ends-->  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
+ 

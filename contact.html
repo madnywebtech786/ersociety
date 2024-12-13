@@ -1,0 +1,147 @@
+<?php
+include_once("header.html")
+?> 
+<main class="banner-slider" style="background-image: url('images/contact-background.jpg');">
+        <div class="container">
+            <div class="banner-content">
+                <h2>CONTACT US</h2>
+            </div>
+        </div>
+    </main>
+<!--Form Starts-->  
+<div class="form flex">
+    <div class="form-div"style="background-image: url(images/formbackground.jpg);">
+        <div class="form-content">
+            <h2>Quick Inquiry Form</h2>
+            
+            <form id="inquiryForm" action="submit_form.html" method="POST">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+              </div>
+      
+              <div class="form-group">
+                <label for="inquiry-type">Inquiry Type</label>
+                <select id="inquiry-type" name="inquiry-type" required>
+                  <option value="donation">Donation</option>
+                  <option value="volunteer">Volunteer</option>
+                  <option value="help">Need Help</option>
+                </select>
+              </div>
+      
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" placeholder="Please provide details..." required></textarea>
+              </div>
+      
+              <div class="form-group">
+                <div class="button-container" type="submit">
+                    <button class="learn-more-btn">Submit</button>
+                 </div>
+            </form>
+            
+            <div class="form-footer">
+              <p>Thank you for your interest in supporting our cause!</p>
+            </div>
+          </div>
+    </div>
+</div>
+    <div class="content-div">
+        <div class="map"></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160600.6476827071!2d-114.25263623676449!3d51.027507407783716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1731734646968!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+</div>
+<!--Form ends-->   
+ 
+<!--Gallery starts-->
+<section class="gallery" >
+    <div class="Theme-title text-center">
+        <h6>OUR ---</h6>
+        <h2>Gallery & Work</h2>
+    </div>
+    <div class="image-slider">
+    <div><img src="images/gallery1.jpg" alt="Image 1"></div>
+        <div><img src="images/gallery2.jpg" alt="Image 2"></div>
+        <div><img src="images/gallery3.jpg" alt="Image 3"></div>
+        <div><img src="images/gallery4.jpg" alt="Image 4"></div>
+        <div><img src="images/gallery1.jpg" alt="Image 1"></div>
+        <div><img src="images/gallery2.jpg" alt="Image 2"></div>
+        <div><img src="images/gallery3.jpg" alt="Image 3"></div>
+        <div><img src="images/gallery4.jpg" alt="Image 4"></div>
+      </div>
+      <div class="button-container">
+        <button class="learn-more-btn">All Gallery</button>
+     </div>
+      
+</section>
+<!--Gallery ends-->   
+<!--Footer ends-->   
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Column 1: Logo and Description -->
+      <div class="footer-column">
+        <div class="footer-logo">
+        <figure>
+                        <img src="images/logo2.png" alt="ERSociety">
+                    </figure>
+        </div>
+        <p class="footer-description">
+        "Ebeneze Relief Society has been a guiding light for countless individuals and families, providing support with compassion and dedication."
+        </p>
+      </div>
+      <!-- Column 2: First set of links -->
+      <div class="footer-column">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="boardofdirectors.html">Board of Directors</a></li>
+          <li><a href="activities.html">Activities</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: Second set of links -->
+      <div class="footer-column">
+        <ul>
+        <li><a href="assistimmigrant.html">Assit Immigrant families</a> </li>
+       <li><a href="skillandlanguage.html">Skill & Language Training</a> </li>
+        <li><a href="employementguidance.html">Employement Guidance</a> </li>
+        <li><a href="sportsdevelopment.html">Sports Development</a> </li>
+        <li><a href="medicalandfood.html">Medical & Food Relief</a> </li>
+         <li><a href="communitydevelopment.html">Community Development</a> </li>            
+        </ul>
+      </div>
+      <!-- Column 4: Third set of links -->
+      <div class="footer-column">
+        <ul>
+        <li><a href="mentalhealth.html">Awareness On Mental Health</a> </li>
+        <li><a href="younggen.html">Awareness For Young Generation</a> </li>
+       <li><a href="spiritual.html">Awareness For Spiritual Gudiance</a> </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p> <span class="template"></span> ©2024, <span class="highlight">Ebeneze Relief Society</span> All Rights Reserved</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
+  <!--Footer ends-->  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-3.3.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
+ 
